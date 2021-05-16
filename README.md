@@ -14,7 +14,7 @@ In a cancer prediction analysis problem you have a target variable in which thei
 
 * To handle this imbalance problem in dataset we have several techniques:
 
-      1. undersamplin
+      1. undersampling
       2. oversampling
       3. smote
 
