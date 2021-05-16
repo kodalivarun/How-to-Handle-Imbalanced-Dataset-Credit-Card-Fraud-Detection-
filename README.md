@@ -23,12 +23,12 @@ In a cancer prediction analysis problem you have a target variable in which thei
 
 * Under Sampling technique is generally not recommended because in data science having more data is key but in this case we're drastically reducing the data.
 
-## from imblearn.under_sampling import NearMiss
+* ## from imblearn.under_sampling import NearMiss()
 
 # Over Sampling
 * In Over Sampling technique, we're just increasing the count of data points(records) in minority class by simple duplication based on the existing data points.
 
-## from imblearn.over_sampling import RandomOverSampler
+* ## from imblearn.over_sampling import RandomOverSampler()
 
 # SMOTE(Synthetic Minority Oversampling Technique)
 * In smote(synthetic minority oversampling technique), we generate data as we do in oversampling but the difference here is we use knn mechanism in smote technique.
@@ -37,4 +37,4 @@ In a cancer prediction analysis problem you have a target variable in which thei
 
 * Note that we're not duplicating from existing data points we're synthetically creating new data points based on the average of existing neighbors.
 
-## from imblearn.over_sampling import SMOTE
+* ## from imblearn.over_sampling import SMOTE()
